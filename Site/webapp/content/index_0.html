@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Zapatería Virtual</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/animations.css">
+   <!--<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   
+   <script src="https://kit.fontawesome.com/7c9534c8f9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+      <header class="site-header">
+         <a href="#"><img src="images/logo.png"></a>
+         <nav>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Tienda</a></li>
+               <li><a href="#">Oferta</a></li>
+               <li><a href="#">Usuario</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <div class="banner">
+        <img class="imagen-tienda" src="images/MainShop.jpg" />
+      </div>
+      
+      <!--Carrusel de Bootstrap-->
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="De fiesta"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="De calle"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Deportes"></button>
+                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Arreglos"></button>
+                  </div>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <img src="./images/mainShoes.jpg" class="d-block w-100" title="De fiesta" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="./images/mainShoes2.jpg" class="d-block w-100" title="De calle" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="./images/sports5.jpg" class="d-block w-100" title="Deportes" height="500px">
+                     </div>
+                     <div class="carousel-item">
+                        <img src="./images/Arreglos.jpg" class="d-block w-100" title="Nosotros nos encargamos" height="500px">
+                     </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                     <span class="visually-hidden">Next</span>
+                  </button>
+               </div>
+
+            </div>
+         </div>
+      </div>
+
+      <div id="obj-container" class="container">
+         <div class="card">
+            <img class="img" src="./images/mainShoes.jpg" alt="Zapatos de fiesta">
+            <h5>Zapatos de fiesta</h5>
+            <div class="card-body">
+               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dolor sit amet erat
+                  fermentum eleifend. Donec sit amet
+                  mi.</p>
+               <a href="#" class="btn btn-pers">De fiesta</a>
+            </div>
+         </div>
+
+         <div class="card">
+            <img class="img" src="./images/mainShoes2.jpg" alt="Zapatos de día a día">
+            <h5>Zapatos de día día</h5>
+            <div class="card-body">
+               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dolor sit amet erat
+                  fermentum eleifend. Donec sit amet
+                  mi.</p>
+               <a href="#" class="btn btn-pers">De diario</a>
+            </div>
+         </div>
+
+         <div class="card">
+            <img class="img" src="./images/sports5.jpg" alt="Deportivas">
+            <h5>Deportivas</h5>
+            <div class="card-body">
+               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dolor sit amet erat
+                  fermentum eleifend. Donec sit amet
+                  mi.</p>
+               <a href="#" class="btn btn-pers">Deportivas</a>
+            </div>
+         </div>
+
+         <div class="card">
+            <img class="img" src="./images/Arreglos.jpg" alt="Arreglos">
+            <h5>Arreglos</h5>
+            <div class="card-body">
+               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dolor sit amet erat
+                  fermentum eleifend. Donec sit amet
+                  mi.</p>
+               <a href="#" class="btn btn-pers">Arreglos</a>
+            </div>
+         </div>
+
+      </div>
+
+      
+
+      <footer>
+         <div class="container">
+            <div class="column">
+               <h5>SIGUE CONECTADO</h5>
+               <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fab fa-instagram-square"></i></a>
+               </div>
+
+            </div>
+
+            <div class="column">
+               <h5>ESCRÍBENOS</h5>
+               <div class="formulario">
+                  <form action="#" autocomplete="off" enctype="multipart/form-data">
+                     <input type="email" name="email" id="email" placeholder="Ingresa tu email aquí*"><br><br>
+                     <input type="submit" value="Unirse" class="btn-validacion">
+                  </form>
+                  
+               </div>
+            
+            </div>
+
+            <div class="column">
+               <h5>¿NECESITAS AYUDA?</h5>
+               <div class="ayuda">
+                  <h6>914-123-456</h6>
+                  <a class="data-email"><h6>info@entuszapatos.es</h6></a>
+               </div>
+            
+            </div>
+         </div>
+         <span class="copyright">© 2021 hecho para entusZapatos S.A.</span>
+      
+      </footer>         
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+      
+      
+
+</body>
+</html>
